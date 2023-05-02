@@ -82,4 +82,3 @@ for i in range(len(argv)):
         final_temperature = weather_report(argv[i])
         print(final_temperature)
    
-#print(argv[2])
