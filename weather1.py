@@ -4,7 +4,7 @@ from configparser import ConfigParser
 from sys import argv
 
 # Enter your API key here
-#api_key="8198913108c112f50ff34a9feeafe3b9"
+#aapi_key="8198913108c112f50ff34a9feeafe3b9"
 
 # base_url variable to store url
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
