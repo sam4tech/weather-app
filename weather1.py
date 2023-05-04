@@ -65,17 +65,20 @@ def weather_report(city):
         
 
 #city_name = input("Enter city name : ")
+
 #city_list = ['Prague', 'Milan', 'Paris']
+
 # iterate a list using range()
 #for i in range(len(city_list)):
 #    print(weather_report(city_list[i]))
 
 print("\t"+ "CITY " + "\t    |" + "\t TEMPERATURE (in Celcius) " + "\n")
 
-
+# FOR SPECIFIC INPUTS
 #weather_report("Prague")
 #weather_report("Milan")
 #weather_report("Paris")
+
 #print(weather_report(city_list[i]))
 for i in range(len(argv)):
     if i>0 :
