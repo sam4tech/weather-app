@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.11
 
 WORKDIR /weather-app
 
@@ -6,4 +6,6 @@ COPY . .
 
 RUN pip install requests
 
-CMD python weather1.py
+ENTRYPOINT ["python", "weather1.py"]
+
+CMD ["Prague", "Paris", "Milan"]
